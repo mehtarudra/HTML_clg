@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX</title>
+    <style>
+        .main ul{
+            display:flex;
+            justify-content:space-around;
+            flex-wrap:wrap;
+            flex-direction: column-reverse;
+        }
+        .main ul li{
+            list-style-type:none;
+            margin-left: 30px;
+            background-color: brown;
+            color:blueviolet;
+            border:4px black;
+            padding:10PX;
+            margin:10px;
+        }
+
+        .main1 ul{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap:wrap;
+            flex-direction:row;
+        }
+        .main1 ul li{
+            list-style-type: none;
+            margin-left: auto;
+            background-color: black;
+            color:aliceblue;
+            padding:10px 34px;
+            border:5px solid rgb(132, 132, 200);
+        }
+        .main2 ul{
+            display:flex;
+            justify-content:space-evenly;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+        .main2 ul li{
+            list-style-type: none;
+            margin:30px;
+            background-color:aqua;
+            color:rgb(14, 14, 111);
+            border:2px solid;
+            padding:3px;
+        }
+
+        .main3 ul{
+            display:flex;
+            justify-content:space-evenly;
+            flex-wrap: wrap;
+            flex-direction: row-reverse;
+        }
+        .main3 ul li{
+            list-style-type: none;
+            margin-left: auto;
+            background-color: black;
+            color:aliceblue;
+            padding:10px 34px;
+            border:5px solid rgb(132, 132, 200);
+        }
+        
+    </style>
+</head>
+<body>
+    <h3 align="center" style="color:blueviolet">*FLEX*</h3>
+    <hr>
+    <div class="main">
+        <ul>
+            <li class="ll">list1</li>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list4</li>
+            <li>list5</li>
+        </ul>
+    </div><hr>
+
+    <div class="main1">
+        <ul>
+            <li>food</li>
+            <li>icecream</li>
+            <li>coffee</li>
+            <li>choco</li>
+            <li>jelly</li>
+        </ul>
+    </div>
+    <hr>
+
+    <div class="main2">
+        <ul>
+            <li>list1</li>
+            <li>list2</li>
+            <li>list3</li>
+            <li>list4</li>
+            <li>list5</li>
+        </ul>
+    </div><hr>
+
+    <div class="main3">
+        <ul>
+            <li>food</li>
+            <li>icecream</li>
+            <li>coffee</li>
+            <li>choco</li>
+            <li>jelly</li>
+        </ul>
+    </div>
+</body>
+</html>

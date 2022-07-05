@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title> layout amazon </title>
+        <style type="text/css">
+
+            * { 
+                font-size: 22px;
+                font-weight: bold;
+            }
+    
+            #r1 {
+                background-color: rgb(42, 125, 104);
+                height: 50px;
+                width: 100%;
+                margin-bottom: 10px;
+            }
+    
+            #r1a1,
+            #r1a2 {
+                background-color: rgb(42, 125, 104);
+                width: 50%;
+                float: left;
+                padding-left: 0px;
+            }
+    
+            #r2 {
+                background-color: rgb(42, 125, 104);
+                height: 50px;
+                padding-top: 7px;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            #r3{
+                background-color: rgb(42, 125, 104);
+                height: 335px;
+                padding-top: 7px;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            .img{
+                display:flex;
+                justify-content:space-evenly;
+                
+                border: 3px solid black;
+                margin:auto;
+                flex-wrap: wrap;
+                padding: 10px;
+                
+            }
+
+            #r4 {
+                background-color: rgb(42, 125, 104);
+                height: 40px;
+                padding-top: 7px;
+                width: 100%;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+   
+        </style>
+    </head>
+    <body>
+        <h2 align="center"> layout </h2>
+        <div id="r1">
+            <div id="r1a1"> logo </div>
+            <div id="r1a2" align="right">
+                <select>
+                    <option> select </option>
+                    <option> Profile </option>
+                    <option> Contact us </option>
+                    <option> About us </option>
+                </select>
+            </div>
+        </div>
+    
+        <div id="r2"><i><marquee spped="1">Welcome to this Website</marquee></i></div>
+        <div id="r3">
+            <div class="img">
+                <div>
+                    <img src="/image/dog1.jpg" height="200" width="200" alt="dog">
+                    <h5 align="center"><mark>dog</mark></h5>
+                </div>
+
+                <div>
+                    <img src="/image/drstar1.jpg" height="200" width="200" alt="drstrange">
+                    <h5 align="center"><mark>dr strange</mark></h5>
+                </div>
+
+                <div>
+                    <img src="/image/loki.jpg" height="200" width="200" alt="loki">
+                    <h5 align="center"><mark>loki</mark></h5>
+                </div>
+
+                <div>
+                    <img src="/image/thor2.jpg" height="200" width="200" alt="thor">
+                    <h5 align="center"><mark>thor</mark></h5>
+                </div>
+            </div>
+        </div>
+
+        <div id="r4">
+            <b><i>**THANK YOU**</i></b>
+        </div>
+    </body>
+</html>
